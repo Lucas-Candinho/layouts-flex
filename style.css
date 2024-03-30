@@ -1,0 +1,120 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.general-box {
+    height: 500px;
+    width: 500px;
+    margin-top: 5%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.gb-row {
+    flex-direction: row;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+.boxes-horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.boxes-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.horizontal-two {
+    height: 100px;
+    width: 250px;
+    background-color: yellow;
+}
+
+.horizontal-three {
+    height: 100px;
+    width: 400px;
+    background-color: yellow;
+}
+
+.vertical-two {
+    height: 250px;
+    width: 100px;
+    background-color: yellow;
+}
+
+.vertical-three {
+    height: 400px;
+    width: 100px;
+    background-color: yellow;
+}
+
+#square {
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.margin-left {
+    margin-left: 50px;
+}
+
+#fim {
+    color: #fafafa;
+}
+
+#fim-box {
+    background-color: #1b1b1b;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #fff;
+    color: #222222;
+}
+
+button:hover {
+    border-color: #000000;
+    background: #f7f7f7;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}
